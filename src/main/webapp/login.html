@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login Form</title>
+<style>
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;
+cursor:pointer;
+}
+body{
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-size:cover;
+background-position:center;
+}
+form{
+width: 25rem;
+height: 28rem;
+display: flex;
+flex-direction: column;
+background: rgba(255,255,255,.50);
+box-shadow: 0 8px 32px 0 black;
+border-radius: 30px;
+border-left: 1px solid rgba(255,255,255,.3);
+border-top: 1px solid rgba(255,255,255,.3);
+}
+h1{
+font-size: 50px;
+text-align: center;
+color: black;
+text-shadow: grey;
+letter-spacing: 3px;
+margin-bottom: 5%;
+opacity: .7;
+}
+label{
+font-size: 20px;
+color: black;
+margin-left: 10%;
+opacity: .8;
+text-shadow: black;
+}
+input{
+width: 80%;
+margin: 5% auto;
+margin-bottom: 8%;
+border: none;
+border: none;
+background: transparent;
+color: black;
+border-bottom: 2px solid black;
+opacity: .8; 
+}
+button {
+	width:50%;
+	margin:3% auto;
+	color: black;
+	font-size: 15px;
+	opacity: .7;
+	background: white;
+	padding: 10px 30px;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+	text-shadow: 2px 2px 4px black;
+	box-shadow: 3px 3px 5px black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+a{
+font-size: 12px;
+text-align: center;
+color: black;
+opacity: .7;
+}
+button:hover{
+background: gray;
+}
+</style>
+</head>
+<body>
+<form action="detail" method="post">
+<h1>LOGIN</h1>
+<label>LOGIN ID</label>
+<input type="text" name="id" >
+<label>Password</label>
+<input type="password" name="password">
+<button>Login</button>
+
+
+
+
+</form>
+</body>
+</html>
