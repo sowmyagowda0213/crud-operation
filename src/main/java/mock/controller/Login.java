@@ -21,7 +21,7 @@ public class Login extends HttpServlet{
 		String id=req.getParameter("id");
 		String pwd=req.getParameter("password");
 		
-			if(id.equals("test@sundatabase.com") && pwd.equals("Test@123")) {
+			if(id.equals("test@sunbasedata.com") && pwd.equals("Test@123")) {
 				resp.getWriter().print("WELCOME TO SUNDATABASE");
 
 			}
