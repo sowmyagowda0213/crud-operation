@@ -20,6 +20,7 @@
 <th>Address</th>
 <th>city</th>
 <th>Street</th>
+<th>State</th>
 <th>Email</th>
 <th>Phone</th>
 <th>Delete</th>
@@ -32,10 +33,11 @@
 <td><%=e.getAddress()%></td>
 <td><%=e.getCity()%></td>
 <td><%=e.getStreet()%></td>
+<td><%=e.getState()%></td>
 <td><%=e.getEmail()%></td>
 <td><%=e.getPhone()%></td>
 <td><a href="def?primarykey=<%=e.getFirstname()%>">remove</a></td>
-<td><a href="update.jsp?firstname=<%=e.getFirstname()%>&&lastname=<%=e.getLastname()%>&&address=<%=e.getAddress()%>&&city=<%=e.getCity()%>&&street=<%=e.getStreet()%>&&email=<%=e.getEmail()%>&&phone=<%=e.getPhone()%>">edit</a></td>
+<td><a href="update.jsp?firstname=<%=e.getFirstname()%>&&lastname=<%=e.getLastname()%>&&address=<%=e.getAddress()%>&&city=<%=e.getCity()%>&&street=<%=e.getStreet()%>&&State=<%=e.getState()%>&&email=<%=e.getEmail()%>&&phone=<%=e.getPhone()%>">edit</a></td>
 </tr>
 <%} %>
 </table>
